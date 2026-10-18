@@ -28,7 +28,7 @@ const page = () => {
           </p>
         </div>
       </div>
-      <div className="max-w-6xl mx-auto py-16 flex">
+      <div className="max-w-6xl mx-auto py-16 flex md:flex-row gap-12 flex-col p-4">
         <div className="flex flex-col gap-6 w-full md:w-1/2">
           <h2 className="capitalize text-3xl mb-4">Get in touch</h2>
           {getInTouch.map((value, i) => {
