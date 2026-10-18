@@ -1,5 +1,5 @@
 import { QuickLink, Contact, SecurityService } from "@/types";
-import { FaPhone, FaClock } from "react-icons/fa";
+import { FaPhone, FaClock, FaMapPin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import {
   ShieldCheckIcon,
@@ -330,5 +330,34 @@ export const securityService: SecurityService[] = [
       "Police liaison when required",
       "Detailed incident reports",
     ],
+  },
+];
+
+
+export const getInTouch= [
+ 
+  {
+    icon: FaPhone,
+    title: "phone",
+    text: "+44 (0) 123 456 7890",
+    description:"24/7 Emergency Line"
+  },
+  {
+    icon: IoMdMail,
+    title: "Email",
+    text: "nfo@everguardsecurity.uk",
+    description:"We'll respond within 24 hours"
+  },
+  {
+    icon: FaMapPin,
+    title: "Service Area",
+    text: "Nigeria",
+    description:"Nationwide coverage"
+  },
+  {
+    icon: FaClock,
+    title: "Availability",
+    text: "24/7 Security Services",
+    description: "Office Hours: Mon-Fri 9am-6pm"
   },
 ];
